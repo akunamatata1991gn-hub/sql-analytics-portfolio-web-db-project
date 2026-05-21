@@ -61,11 +61,6 @@ FROM web_analytics;
 **Бизнес-задача:** Показать каждую продажу и рассчитать накопительный итог (running total) выручки по дням.
 ```sql
 SELECT
-
-## 📊 3. Интерактивный дашборд (Визуализация данных)
-Результаты работы аналитических SQL-запросов и эффективность маркетинговых каналов (VK, Telegram, Google) визуализированы в интерактивном отчете.
-
-🔗 [Посмотреть живой отчет в Yandex DataLens](ВСТАВЬТЕ_СЮДА_ВАШУ_СКОПИРОВАННУЮ_ССЫЛКУ)
     visit_date,
     user_id,
     purchase_amount,
@@ -73,3 +68,4 @@ SELECT
 FROM web_analytics
 WHERE purchase_amount > 0;
 ```
+🔗**[Посмотреть интерактивный отчет в Yandex DataLens](https://datalens.ru/preview/t8js6j1fx4a2d)**
